@@ -1,0 +1,345 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    width: 1440px;
+    left: 70px;
+    position: absolute;
+}
+
+.image-header {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.header {
+    margin-top: 100px;
+    max-width: 500px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    position: relative;
+    margin-left: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.conten__header {
+    display: flex;
+    padding: 20px;
+    position: relative;
+    justify-content: center;
+}
+
+.conten-main {
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    max-width: 500px;
+    position: relative;
+    margin-left: 450px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.title p {
+    margin-top: 20px;
+    padding: 10px;
+    line-height: 2px;
+}
+
+.title span {
+    color: hsl(75, 94%, 57%)
+}
+
+.formolario {
+    position: relative;
+    padding: 0 auto;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.github {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+.github:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
+
+.Frontend-Mentor {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+.Frontend-Mentor:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
+
+
+.LinkedIn {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+.LinkedIn:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
+
+.Twitter {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+.Twitter:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
+
+.Instagram {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+.Instagram:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
+
+.footer {
+    width: 1440px;
+    height: 50px;
+}
+
+.attribution {
+    padding-top: 15px;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 760px) {
+
+    body {
+        background-color: hsl(0, 0%, 8%);
+        width: 375px;
+
+        position: absolute;
+    }
+
+    .image-header {
+
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    .header {
+        margin-top: 100px;
+        max-width: 250px;
+        background-color: hsl(0, 0%, 12%);
+        padding: 30px;
+        position: relative;
+        margin-left: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .conten__header {
+        display: flex;
+        padding: 20px;
+        position: relative;
+        justify-content: center;
+    }
+
+    .conten-main {
+        background-color: hsl(0, 0%, 12%);
+        padding: 30px;
+        max-width: 250px;
+        position: relative;
+        margin-left: 30px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+
+    }
+
+    .title {
+        padding: 10px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .title p {
+        margin-top: 20px;
+        padding: 10px;
+        line-height: 2px;
+    }
+
+    .title span {
+        color: hsl(75, 94%, 57%)
+    }
+
+    .formolario {
+        position: relative;
+        padding: 0 auto;
+
+        color: hsl(0, 0%, 100%);
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+    }
+
+    .github {
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        background-color: hsl(0, 0%, 20%);
+        height: 40px;
+        width: 240px;
+        margin-left: 4px;
+        border-radius: 7px;
+    }
+
+    .github:hover {
+        background-color: hsl(75, 94%, 57%);
+        cursor: pointer;
+        color: black;
+    }
+
+    .Frontend-Mentor {
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        background-color: hsl(0, 0%, 20%);
+        height: 40px;
+        width: 240px;
+        margin-left: 4px;
+        border-radius: 7px;
+    }
+
+    .Frontend-Mentor:hover {
+        background-color: hsl(75, 94%, 57%);
+        cursor: pointer;
+        color: black;
+    }
+
+
+    .LinkedIn {
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        background-color: hsl(0, 0%, 20%);
+        height: 40px;
+        width: 240px;
+        margin-left: 4px;
+        border-radius: 7px;
+    }
+
+    .LinkedIn:hover {
+        background-color: hsl(75, 94%, 57%);
+        cursor: pointer;
+        color: black;
+    }
+
+    .Twitter {
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        background-color: hsl(0, 0%, 20%);
+        height: 40px;
+        width: 240px;
+        margin-left: 4px;
+        border-radius: 7px;
+    }
+
+    .Twitter:hover {
+        background-color: hsl(75, 94%, 57%);
+        cursor: pointer;
+        color: black;
+    }
+
+    .Instagram {
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        background-color: hsl(0, 0%, 20%);
+        height: 40px;
+        width: 240px;
+        margin-left: 4px;
+        border-radius: 7px;
+    }
+
+    .Instagram:hover {
+        background-color: hsl(75, 94%, 57%);
+        cursor: pointer;
+        color: black;
+    }
+
+    .footer {
+        width: 1440px;
+        height: 50px;
+    }
+
+    .attribution {
+        margin-top: 10px;
+      
+        font-size: 1rem;
+        color: hsl(0, 0%, 100%);
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+
+    }
+
+    a {
+        text-decoration: none;
+       
+
+}
